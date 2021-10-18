@@ -1,6 +1,6 @@
 import discord
 import os
-TOKEN = os.environ['TOKEN']
+TOKEN = XXXyour_bot_api
 import asyncio
 from threading import Thread
 from commands import r, qm, start, redirect, help
