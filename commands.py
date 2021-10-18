@@ -88,7 +88,6 @@ async def redirect(client,message, command):
       await pchan2.send("Pounce here!!!")
       await pchan3.send("Pounce here!!!") 
       await pchan4.send("Pounce here!!!") 
-      # qmchannel= client.get_channel(int(db["qmchannel"]))
       
 async def help(message, discord):
   embedVar = discord.Embed(title="I am here to help you!", description="All commands", color=0x33FFD7)
@@ -102,8 +101,3 @@ async def help(message, discord):
   
 
   await message.channel.send(embed= embedVar)
-
-
-
-#lalan which command is this? thsi is .redirect okay 
-#await qmchannel.send("Pounce started!!!") then whyno this one?
