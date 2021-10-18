@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "I am Lalan Kumar, a big gadha"
+    return "I am alive, No need to worry about me."
 def run():
   app.run(host='0.0.0.0',port=8080)
 
